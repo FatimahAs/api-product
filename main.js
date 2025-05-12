@@ -1,4 +1,4 @@
-   document.getElementById('usernameDisplay').textContent = localStorage.getItem('loggedInUser');
+   //document.getElementById('usernameDisplay').textContent = localStorage.getItem('loggedInUser');
 
    async function fetchProducts() {
        const res = await fetch('https://fakestoreapi.com/products');
